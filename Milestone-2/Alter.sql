@@ -1,3 +1,4 @@
+ALTER TABLE Donar
 ADD MedicalHistory TEXT DEFAULT NULL;
 
 
