@@ -79,8 +79,8 @@ CREATE TABLE BloodReceipt (
     HemoglobinLevel DECIMAL(5, 2) NOT NULL,
     ReceiptStatus INT,
     FOREIGN KEY (RecipientID) REFERENCES Recipient(RecipientID),
-    FOREIGN KEY (BloodBankID) REFERENCES BloodBank(BloodBankID),
-)
+    FOREIGN KEY (BloodBankID) REFERENCES BloodBank(BloodBankID)
+);
 
 -- Create BloodTransfusion Table
 CREATE TABLE BloodTransfusion (
